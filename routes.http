@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "wendy anthony lima",
+    "description": "anthony",
+    "duration": 91
+}
+
+###
+
+GET http://localhost:3333/videos
+
+
+###
+
+PUT http://localhost:3333/videos/3af69b5f-aba2-4c44-86cf-6d64fe4b7211
+Content-Type: application/json
+
+{
+    "title": "Anthony Wendy Antunes de Lima",
+    "description": "Anthony end your first API with fastify.",
+    "duration": 91
+}
+
+###
+
+DELETE http://localhost:3333/videos/3af69b5f-aba2-4c44-86cf-6d64fe4b7211
